@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                // Navigate to the second page (page2)
+                // Navigate to the second page
                 Intent intent = new Intent(MainActivity.this, page2.class);
                 intent.putExtra("weight", weight);
                 intent.putExtra("height", height);
